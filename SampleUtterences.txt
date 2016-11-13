@@ -1,0 +1,21 @@
+GetNewFactIntent a fact
+GetNewFactIntent a league fact
+GetNewFactIntent tell me a fact
+GetNewFactIntent tell me a league fact
+GetNewFactIntent tell me a league of legends fact
+GetNewFactIntent give me a fact
+GetNewFactIntent give me a league fact
+GetNewFactIntent give me a league of legends fact
+GetNewFactIntent tell me trivia
+GetNewFactIntent tell me a league trivia
+GetNewFactIntent tell me a league of legends trivia
+GetNewFactIntent tell me about league of Legends.
+GetNewFactIntent tell me about league.
+GetNewFactIntent give me trivia
+GetNewFactIntent give me a league trivia
+GetNewFactIntent give me a league of legends trivia
+GetNewFactIntent give me some information
+GetNewFactIntent give me some league information
+GetNewFactIntent give me some league of legends information
+GetNewFactIntent tell me something
+GetNewFactIntent give me something
