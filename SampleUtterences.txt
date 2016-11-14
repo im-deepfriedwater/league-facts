@@ -19,3 +19,8 @@ GetNewFactIntent give me some league information
 GetNewFactIntent give me some league of legends information
 GetNewFactIntent tell me something
 GetNewFactIntent give me something
+RepeatIntent what did you just say
+RepeatIntent repeat
+RepeatIntent can you repeat that
+RepeatIntent i didnt quite catch that
+RepeatIntent what was that
