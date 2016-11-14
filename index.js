@@ -29,13 +29,13 @@ var FACTS = [
     "There are 11 champions that do not have a single AP ratio on any ability. The list is, Darius, Garen, Kalista, Kindred, Illaoi, Olaf, Riven, Talon, Vayne and Zed.",
     "Draven is the only champion that has two different critical strike animations.",
     "Quinn is currently the only champion whose name starts with Q.",
-    "That being said, there is a champion for every letter of the alphabet."
-    "The champion Ahri was released globally at the same time of the launch of the Korean server to league."
+    "That being said, there is a champion for every letter of the alphabet.",
+    "The champion Ahri was released globally at the same time of the launch of the Korean server to league.",
     "Originally, Ahri's design did not have fox ears. Her final design does have fox ears.",
     "Ahri was inspired a common symbol in East Asian mythologies, the nine-tailed fox. Foxes in east asian mythology are represented often to fool people and also have the ability to masquerade as a beautiful female human.",
-    "Ekko's name was derived from the english word E C H O, echo. The meaning behind is that his past selves from his rewinding of time represent echoes of the timelines he has left behind."
+    "Ekko's name was derived from the english word E C H O, echo. The meaning behind is that his past selves from his rewinding of time represent echoes of the timelines he has left behind.",
     "During development Ekko's production titles were Time Slugger and Time Assassain.",
-    "Ekko never actually dies, rather through his Zero-Drive he rewinds time back to base."
+    "Ekko never actually dies, rather through his Zero-Drive he rewinds time back to base.",
     "Orianna is a European name derived from multiple names which mean golden.",
     "Orianna was inspired by Youmu Konpaku from Touhou.",
     "When Taipei Assassins won the Season Two World Championship Riot created TPA Dr. Mundo, Ezreal, Nunu, Shen, and Orianna skins.",
@@ -58,11 +58,11 @@ var FACTS = [
     "Syndra was originally named Sym.",
     "Syndra is the first official champion to be able to directly manipulate camps and minions to cause damage to other champions.",
     "There are two champions to have quotes when leveling up an ability. There is Syndra with the other being Vayne upon leveling up her Silver Bolts.",
-    "Karma and Syndra share the same quote. By force of will."
+    "Karma and Syndra share the same quote. By force of will.",
     "Lissandra is the only champion to possess a single-target ability that can be used only herself but not allies."
 ];
 
-exports.handler =, function(event, context, callback) {
+exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
     alexa.APP_ID = APP_ID;
     alexa.registerHandlers(handlers);
