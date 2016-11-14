@@ -22,5 +22,6 @@ GetNewFactIntent give me something
 RepeatIntent what did you just say
 RepeatIntent repeat
 RepeatIntent can you repeat that
+RepeatIntent can you repeat that fact
 RepeatIntent i didnt quite catch that
 RepeatIntent what was that

@@ -3,7 +3,7 @@ var Alexa = require('alexa-sdk');
 
 var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
 var SKILL_NAME = 'League Facts';
-var lastUsedFact = "I have not said a fact yet.";
+var lastUsedFact = "I have not said a fact yet. You can say tell me a League fact, or, you can say exit, you can also ask me to repeat the last fact... What can I help you with?";
 
 /**
  * Array containing space facts.
@@ -99,6 +99,6 @@ var handlers = {
         this.emit(':tell', 'Goodbye!');
     },
     'RepeatIntent': function () {
-        this.emit(':tellWithCard', lastUsedFact, reprompt);
+        this.emit(':tellWithCard', lastUsedFact);
     }
 };
