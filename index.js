@@ -59,7 +59,7 @@ var FACTS = [
     "Syndra is the first official champion to be able to directly manipulate camps and minions to cause damage to other champions.",
     "There are two champions to have quotes when leveling up an ability. There is Syndra with the other being Vayne upon leveling up her Silver Bolts.",
     "Karma and Syndra share the same quote. By force of will.",
-    "Lissandra is the only champion to possess a single-target ability that can be used only herself but not allies."
+    "Lissandra is the only champion to possess a single-target ability that can be used only herself but not on allies."
 ];
 
 exports.handler = function(event, context, callback) {
