@@ -25,3 +25,8 @@ RepeatIntent can you repeat that
 RepeatIntent can you repeat that fact
 RepeatIntent i didnt quite catch that
 RepeatIntent what was that
+AMAZON.StopIntent stop
+AMAZON.StopIntent quit
+AMAZON.StopIntent okay thanks
+AMAZON.StopIntent no more facts please
+AMAZON.StopIntent thanks
