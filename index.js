@@ -98,7 +98,7 @@ var handlers = {
     'AMAZON.StopIntent': function () {
         this.emit(':tell', 'Goodbye!');
     },
-    'AMAZON.RepeatIntent': function () {
+    'RepeatIntent': function () {
         this.emit(':tellWithCard', lastUsedFact, reprompt);
     }
 };
