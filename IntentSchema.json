@@ -10,7 +10,7 @@
       "intent": "AMAZON.StopIntent"
     },
     {
-      "intent": "AMAZON.RepeatIntent"
+      "intent": "RepeatIntent"
     },
     {
       "intent": "AMAZON.CancelIntent"
